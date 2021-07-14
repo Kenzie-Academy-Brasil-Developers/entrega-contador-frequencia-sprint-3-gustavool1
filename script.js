@@ -1,7 +1,5 @@
 let textoInput = document.getElementById("textInput")
-
 let btnCont = document.getElementById("countButton")
-let letras = []
 btnCont.addEventListener("click",  palavras )
 
 function palavras(){
