@@ -1,0 +1,49 @@
+body{
+    background-color: rgb(108, 108, 206);
+}
+.container{
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+}
+
+.container #textInput{
+    width: 80%;
+    background-color: none;
+}
+ button#countButton{
+    margin-bottom: 10px;
+    border: 1px solid rgb(108, 108, 231);
+    padding: 20px;
+    background-color:rgba(4, 4, 240, 0.226); 
+    border-radius: 10px;
+    width: 200px;
+    color: white;
+    
+}
+button#countButton:hover{
+    background-color: rgba(4, 4, 240, 0.651);
+    cursor: pointer;
+   
+    padding: 21px;
+}
+#lettersDiv{
+    
+    width: 80%;
+    height: 400px;
+    background-color: rgb(137, 137, 231);
+}
+
+@media screen and (min-width:800px){
+    .container{
+        width: 800px;
+    }
+    #lettersDiv{
+        height: 300px;
+    }
+}
